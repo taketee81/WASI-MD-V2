@@ -14,7 +14,7 @@
 
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
-  require("dotenv").config({ path: __dirname + "/.env" });
+  require("dotenv").config({ path:__dirname + "/.env" });
 global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
